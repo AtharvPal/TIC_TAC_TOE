@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body{
+    background-color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background: #eee;
+  background-color: black;
+}
+.container h1{
+  color:white;
+  border: 2px solid black;
+  font-size: 50px;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+button {
+  outline: none;
+  border: 0px solid black;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  color:white;
+  background-color: black;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  border-radius: 4px;
+}
+.play-area {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: auto auto auto;
+}
+.block {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color:white;
+  border: 3px solid white;
+  transition: background 0.3s ease-in-out;
+}
+
+.block:hover {
+  cursor: pointer;
+  background: blue;
+}
+.occupied:hover {
+  background: red;
+}
+.container_header{
+  width:100%;
+  margin-top: 10px;
+  background-color: green;
+}
+.left{
+  float:left;
+  color:white;
+  margin-top: 90px;
+  margin-left: 240px;
+}
+.right{
+  color:white;
+  float:right;
+  margin-top: 90px;
+  margin-right: 240px;
+}
+
+.left p{
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.right p{
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.left h3{
+  font-size: 30px;
+}
+.right h3{
+  font-size: 30px;
+}
+  #block_0,  #block_1,  #block_2 {
+    border-top: none;
+  }
+
+  #block_0,  #block_3,  #block_6 {
+    border-left: none;
+  }
+
+  #block_6,  #block_7,  #block_8 {
+    border-bottom: none;
+  }
+
+  #block_2,  #block_5,  #block_8 {
+    border-right: none;
+  }
+.container h2{
+  position: relative;
+  margin:18px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  color:white;
+}
