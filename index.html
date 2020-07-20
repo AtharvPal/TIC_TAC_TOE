@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tic-Tac-Toe</title>
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="styleshe.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
   <header>
     <div class="container_header">
       <div class="left">
-        <h3>PLAYER 1</h3>
-        <p>SCORE <p id="1"></p></p>
+        <h3 id="play_1">PLAYER 1</h3>
+        <p class="part1">SCORE <p id="1"></p>
+        <p class="part1">HIGHSCORE <p id="high1"></p>
       </div>
       <div class="right">
-        <h3 >PLAYER 2</h3>
-        <p>SCORE <p id="2"></p></p>
+        <h3 id="play_2">PLAYER 2</h3>
+        <p class="part2">SCORE <p id="2" ></p>
+        <p class="part2">HIGHSCORE <p id="high2"></p>
       </div>
     </div>
   </header>
@@ -33,8 +36,11 @@
        <div id="block_7" class="block"></div>
        <div id="block_8" class="block"></div>
      </div>
-     <button onclick="reset_board()">RESET BOARD</button>
-     <button onclick="reset_score()">RESET SCORE</button>
+     <button class="button_board" onclick="reset_board()">RESET BOARD</button>
+     <button class="button_reset" onclick="reset_score()">RESET SCORE</button>
+     <button id="ok" onclick="no_of_players()">1 PLAYER</button>
+     <button class="button_level" id="mode" onclick="computer_level()">EASY</button>
+     <!--<div class="button_level_hover"><p> Hard - Computer is as smart as you. </p><p> Easy - Computer is dumb. </p></div>-->
      <h2 id="winner"></h2>
    </div>
    <script src="tic.js"></script>
