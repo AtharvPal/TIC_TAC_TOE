@@ -13,7 +13,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
   background: #eee;
   background-color: black;
 
@@ -83,10 +83,14 @@ button:hover {
   margin-top: 10px;
 }
 button{
-  padding: 9px;
+  padding: 8px;
 }
 .button_board{
   margin-bottom: 2px;
+}
+.info{
+  color:blue;
+  position: relative;
 }
 .button_reset{
   margin-top: 2px;
@@ -104,13 +108,13 @@ button{
 .left{
   color: white;
   float:left;
-  margin-top: 90px;
+  margin-top: 70px;
   margin-left: 240px;
 }
 .right{
   float:right;
   color:white;
-  margin-top: 90px;
+  margin-top: 70px;
   margin-right: 240px;
 }
 .part2{
@@ -162,7 +166,7 @@ button{
 }
 .container h2{
   position: relative;
-  margin:12px 10px 10px 10px;
+  margin:6px 5px 5px 5px;
   padding: 5px;
   color:yellow;
 }
@@ -171,4 +175,26 @@ button{
   display: inline;
   margin:0;
   padding: 3px;
+} */
+/* .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  border-radius: 3px;
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 } */
