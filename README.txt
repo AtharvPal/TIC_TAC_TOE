@@ -1,7 +1,7 @@
 A TIC-TAC-TOE web application using CSS, HTML and Javascript
 
-This web application is the classic Tic-Tac-Toe game with player vs. player/computer mode. Player vs computer is further divided into modes EASY and HARD, indicating how well 
-the computer plays.
+This web application is the classic Tic-Tac-Toe game with player vs. player/computer mode. Player vs computer is further divided into modes EASY and HARD, indicating 
+how well the computer plays.
 
 DESCRIPTION
 
