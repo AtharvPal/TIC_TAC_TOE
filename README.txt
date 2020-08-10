@@ -7,8 +7,7 @@ DESCRIPTION
 
 1. Click on one of the box of 9x9 grid to make your move. By default, the player who goes first takes X.
 
-2. The SCORE column under each player shows the current score of that player. The HIGHSCORE column shows the highest score achieved by that player till now. 
-   Both are resetted on changing modes/ reloading the page.
+2. The SCORE column under each player shows the current score of that player. The HIGHSCORE column shows the highest score achieved by that player till now. Both are resetted on changing modes/ reloading the page.
 
 3. The RESET BOARD button resets the grid to start a new game. The highscores and score are NOT resetted.
 
