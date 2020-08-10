@@ -2,6 +2,8 @@ A TIC-TAC-TOE web application using CSS, HTML and Javascript
 
 This web application is the classic Tic-Tac-Toe game with player vs. player/computer mode. Player vs computer is further divided into modes EASY and HARD, indicating how well the computer plays.
 
+For experiencing it yourself, go to https://atharvpal.github.io/TIC_TAC_TOE/
+
 DESCRIPTION
 
 1. Click on one of the box of 9x9 grid to make your move. By default, the player who goes first takes X.
