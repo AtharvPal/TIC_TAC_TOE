@@ -8,6 +8,9 @@ body{
     /*font-family: Verdana,sans-serif;*/
     font-family: 'Montserrat', sans-serif;
 }
+.container_header{
+  background-color: blue;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -108,14 +111,17 @@ button{
 .left{
   color: white;
   float:left;
+  position: relative;
   margin-top: 70px;
   margin-left: 240px;
+  width: 150px;
 }
 .right{
   float:right;
   color:white;
   margin-top: 70px;
   margin-right: 240px;
+  width: 180px;
 }
 .part2{
   color:red;
@@ -123,12 +129,15 @@ button{
 #play_1{
   color:blue;
   margin-bottom: 10px;
+  text-align: center;
 }
 .part1{
   color:red;
 }
 #play_2{
   color:blue;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .left p{
   padding-top: 20px;
