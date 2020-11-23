@@ -18,4 +18,3 @@ DESCRIPTION
 
 6. When in 1 PLAYER mode, an EASY/HARD button can be used to decide how good computer plays. Click on it to change dificulty alternatively.
    
-P.S I know the positioning changes while switching modes; I'm still working on that :)
