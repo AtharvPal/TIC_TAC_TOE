@@ -3,14 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
-    background-color: black;
-    /*font-family: Verdana,sans-serif;*/
-    font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
 }
+
 .container_header{
   background-color: blue;
+  width:100%;
+  margin-top: 10px;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -19,21 +23,29 @@ body{
   margin-top: 10px;
   background: #eee;
   background-color: black;
-
 }
+
 .container h1{
-  color:white;
+  color:green;
   border: 2px solid black;
   font-size: 50px;
   margin-bottom: 80px;
   margin-top: 20px;
 }
+
+.container h2{
+  position: relative;
+  margin:6px 5px 5px 5px;
+  padding: 5px;
+  color:yellow;
+}
+
 button {
   outline: none;
   font-family: 'Montserrat', sans-serif;
   border: 0px solid black;
   margin-top: 20px;
-  padding: 12px 20px;
+  padding: 8px;
   font-size: 20px;
   font-weight: bold;
   background: none;
@@ -49,12 +61,14 @@ button:hover {
   color: black;
   border-radius: 4px;
 }
+
 .play-area {
   display: grid;
   width: 300px;
   height: 300px;
   grid-template-columns: auto auto auto;
 }
+
 .block {
   display: flex;
   width: 100px;
@@ -72,37 +86,38 @@ button:hover {
   cursor: pointer;
   background: blue;
 }
+
 .draw{
   background-color: rgb(255,167,0);
 }
+
 .won{
   background-color: green;
 }
+
 .occupied:hover {
   background: red;
 }
-.container_header{
-  width:100%;
-  margin-top: 10px;
-}
-button{
-  padding: 8px;
-}
+
 .button_board{
   margin-bottom: 2px;
 }
+
 .info{
   color:blue;
   position: relative;
 }
+
 .button_reset{
   margin-top: 2px;
   margin-bottom: 2px;
 }
+
 #ok{
   margin-top: 2px;
   margin-bottom: 2px;
 }
+
 #mode{
   margin-top: 2px;
   margin-bottom: 2px;
@@ -116,6 +131,7 @@ button{
   margin-left: 240px;
   width: 150px;
 }
+
 .right{
   float:right;
   color:white;
@@ -123,87 +139,60 @@ button{
   margin-right: 240px;
   width: 180px;
 }
+
 .part2{
   color:red;
 }
+
 #play_1{
   color:blue;
   margin-bottom: 10px;
   text-align: center;
 }
+
 .part1{
   color:red;
 }
+
 #play_2{
   color:blue;
   margin-bottom: 10px;
   text-align: center;
 }
+
 .left p{
   padding-top: 20px;
   font-size: 20px;
   text-align: center;
 }
+
 .right p{
   padding-top: 20px;
   font-size: 20px;
   text-align: center;
 }
+
 .left h3{
   font-size: 30px;
 }
+
 .right h3{
   font-size: 30px;
 }
-  #block_0,  #block_1,  #block_2 {
-    border-top: none;
-  }
 
-  #block_0,  #block_3,  #block_6 {
-    border-left: none;
-  }
-
-  #block_6,  #block_7,  #block_8 {
-    border-bottom: none;
-  }
-
-  #block_2,  #block_5,  #block_8 {
-    border-right: none;
-  }
-.container h1{
-  color:green;
-}
-.container h2{
-  position: relative;
-  margin:6px 5px 5px 5px;
-  padding: 5px;
-  color:yellow;
-}
-/* .button_level:hover+.button_level_hover{
-  background:yellow;
-  display: inline;
-  margin:0;
-  padding: 3px;
-} */
-/* .tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
+#block_0,  #block_1,  #block_2 {
+  border-top: none;
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: white;
-  font-size: 15px;
-  color: black;
-  text-align: center;
-  border-radius: 3px;
-  padding: 2px 0;
-  position: absolute;
-  z-index: 1;
+#block_0,  #block_3,  #block_6 {
+  border-left: none;
 }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-} */
+#block_6,  #block_7,  #block_8 {
+  border-bottom: none;
+}
+
+#block_2,  #block_5,  #block_8 {
+  border-right: none;
+}
+
